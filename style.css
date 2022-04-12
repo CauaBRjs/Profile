@@ -1,0 +1,78 @@
+#menu {
+    display:flex;
+    background-color: black;
+    margin: 0;
+}
+
+#menu li {
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+#menu li:first-child{
+    margin-right: auto;
+}
+
+.cabeça {
+    display: flex;
+    height: 90vh;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(132, 206, 132);
+}
+
+.meio {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.section1 {
+    display: flex;
+    background-color: white;
+    width: 33vh;
+}
+
+.imgprojeto {
+    width: 20vw;
+    height: 20vw;
+    padding-left: 15px;
+}
+
+body {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.section2 {
+    display: flex;
+    height:33vh;
+    background-color: #d8d8d8;
+}
+
+.section3 {
+    display: flex;
+    height:33vh;
+    background-color:white ;
+}
+
+.habilidades {
+    text-align: center;
+}
+
+footer{
+    background-color: #363636d7;
+    padding:30px;
+    color: white;
+    padding: left;
+}
+
+html{
+    scroll-behavior: smooth;
+}
